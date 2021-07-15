@@ -66,12 +66,12 @@ class AioHttp:
 
 __mod_name__ = "Inline"
 __help__ = """
- <b> INLINE BOT SERVICE OF @DAISYXBOT </b> 
+ <b> INLINE BOT SERVICE OF @dimasapabot </b> 
  
 <i> I'm more efficient when added as group admin. By the way these commands can be used by anyone in a group via inline.</i>
 
 <b>Syntax</b>
-   @DaisyXBot [command] [query]
+   @dimasapabot [command] [query]
 
 <b> Commands Available</b>
 - alive - Check Bot's Stats.
@@ -115,7 +115,7 @@ __HELP__ = """
 `I'm more efficient when added as group admin. By the way these commands can be used by anyone in a group via inline.`
 
    >> Syntax <<
-@DaisyXBot [command] [query]
+@dimasapabot [command] [query]
 
    >> Commands Available <<
 - **alive** - __Check Bot's Stats.__
@@ -784,13 +784,13 @@ async def inline_query_handler(client, query):
                 sun_set_time = int(response_api["sys"]["sunset"]) + country_time_zone
                 lol = """ 
         WEATHER INFO GATHERED
-        Location: {}
-        Temperature ☀️: {}°С
-            minimium: {}°С
-            maximum : {}°С
-        Humidity 🌤**: {}%
-        Wind 💨: {}m/s
-        Clouds ☁️: {}hpa
+        Lokasi: {}
+        Tamperatur ☀️: {}°С
+            minimal: {}°С
+            maksimal : {}°С
+        Kelembaban 🌤**: {}%
+        Angin 💨: {}m/s
+        Awan ☁️: {}hpa
         Sunrise 🌤: {} {}
         Sunset 🌝: {} {}""".format(
                     input_str,
@@ -907,7 +907,7 @@ async def inline_query_handler(client, query):
                 + app_link
                 + "'>View in Play Store</a>"
             )
-            app_details += "\n\n===> @DaisySupport_Official <==="
+            app_details += "\n\n===> @xskull7 <==="
             rip.append(
                 InlineQueryResultArticle(
                     title=f"Datails of {app_name}",
