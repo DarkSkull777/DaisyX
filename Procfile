@@ -1,2 +1,2 @@
-DAISYX: python3 -m DaisyX
+Dimas: python3 -m DaisyX
 ps:scale DAISYX=1
