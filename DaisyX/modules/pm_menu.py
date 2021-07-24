@@ -81,11 +81,11 @@ async def get_start_func(message, strings, edit=False):
     buttons.add(
         InlineKeyboardButton(strings["btn_lang"], callback_data="lang_btn"),
         InlineKeyboardButton(
-            strings["btn_source"], url="https://t.me/sexutv"
+            strings["btn_source"], url="https://dimasr.groups.id"
         ),
     )
     buttons.add(
-        InlineKeyboardButton(strings["btn_channel"], url="https://t.me/hanyabotferi"),
+        InlineKeyboardButton(strings["btn_channel"], url="https://t.me/botdimasdoang"),
         InlineKeyboardButton(
             strings["btn_group"], url="https://t.me/AnosSupport"
         ),
@@ -135,7 +135,7 @@ async def help_cmd(message, strings):
 async def help_cmd_g(message, strings):
     text = strings["btn_group_help"]
     button = InlineKeyboardMarkup().add(
-        InlineKeyboardButton(text=text, url="https://t.me/DaisyXBOT?start")
+        InlineKeyboardButton(text=text, url="https://t.me/Dimasapabot?start")
     )
     await message.reply(strings["help_header"], reply_markup=button)
 
