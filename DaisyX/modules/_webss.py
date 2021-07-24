@@ -16,7 +16,7 @@ async def take_ss(_, message):
         return
     url = message.text.split(None, 1)[1]
     m = await message.reply_text("**Taking Screenshot**")
-    await m.edit("**Uploading**")
+    await m.edit("**Mengambil Detail...**")
     try:
         await app.send_photo(
             message.chat.id,
